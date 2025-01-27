@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 #header{
     background-color: #c6c6c636;
     color: white;
@@ -13,6 +15,7 @@
 body{
     background-color: #1B1B1B;
     margin: 0px;
+    font-family: "Shantell Sans", serif;
 }
 
 #all-content{
@@ -54,10 +57,12 @@ body{
     align-items: center;
     cursor: pointer;
     transition: all 0.3s;
+    font-weight: 800;
 }
 .square:hover{
     background-color: #C6B439;
 }
+
 .action-btn{
     font-size: 30px;
     padding: 7px 30px;
@@ -73,4 +78,7 @@ body{
 .action-btn:hover{
     box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.7);
     background-color: rgb(137, 105, 240);
+}
+button{
+    font-family: "Shantell Sans", serif;
 }
